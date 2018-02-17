@@ -1,0 +1,424 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+	color: #999999;
+}
+
+a:hover {
+	color: #999999;
+}
+
+img {
+	border: 0;
+	padding: 4px;
+	vertical-align: middle;
+}
+
+.links {
+  text-align: center;;
+}
+
+/***************************MOBILE***************************/
+
+@media(max-width:479px) {
+
+	h1{
+		font-family: 'Droid Serif', serif;
+		font-size: 16px !important;
+		color: #E58033;
+		padding-bottom: 10px;
+	}
+	h2{
+		font-family: 'Droid Serif', serif;
+		font-size: 12px !important;
+		color: #999999;
+		text-align: left; 
+	}
+		
+	h4{
+		font-family: 'Droid Serif', serif;
+		font-size: 12px !important;
+		color: #FFFFFF;
+	}
+	
+	p {
+		text-align: left;
+		font-family: 'Droid Serif', serif;
+		font-size: 10px !important;
+		color: #FFFFFF;
+	}
+	
+	.metatags {
+		font-family: 'Droid Serif', serif;
+		color: #333333;
+		font-size: 10px !important;
+	}
+
+	.metadata {
+		font-family: 'Droid Serif', serif;
+		color: #E58033;
+		font-size: 10px !important;
+	}
+	
+	/*centralising the responsive images*/
+
+	.main_logo {
+		width: 160px !important;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 10px;
+	}
+	
+	.img-gallery {
+		width: 45%;
+	}
+		
+	/*decreasing the default top-padding*/
+		
+	.about-section {
+		padding-top: 50px !important;
+	}
+
+	.projects-section {
+		padding-top: 50px !important;
+	}
+
+	.recommendations-section {
+		padding-top: 50px !important;
+	}
+
+	.contact-section {
+		padding-top: 50px !important;
+	}
+}
+
+/***************************TABLET***************************/
+
+@media(max-width:767px) {
+
+	h1{
+		font-family: 'Droid Serif', serif;
+		font-size: 36px;
+		color: #E58033;	
+		padding-bottom: 15px;
+	}
+	h2{
+		font-family: 'Droid Serif', serif;
+		font-size: 20px;
+		color: #999999;
+		text-align: left; 
+	}
+	
+	h4{
+		font-family: 'Droid Serif', serif;
+		font-size: 18px;
+		color: #FFFFFF;
+	}
+	
+	p {
+		text-align: left;
+		font-family: 'Droid Serif', serif;
+		font-size: 12px;
+		color: #FFFFFF;
+	}
+	
+	.metatags {
+		font-family: 'Droid Serif', serif;
+		color: #333333;
+		font-size: 12px;
+	}
+
+	.metadata {
+		font-family: 'Droid Serif', serif;
+		color: #E58033;
+		font-size: 12px;
+	}
+	
+	/*centralising the responsive images*/
+
+	.main_logo {
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	
+	.exit {
+		height: 15%;
+		width: 15%;
+	}
+}
+
+/***************************DESKTOP***************************/
+
+@media(min-width:768px) {
+
+	h1{
+		font-family: 'Droid Serif', serif;
+		font-size: 48px;
+		color: #E58033;
+		padding-bottom: 25px;		
+	}
+	h2{
+		font-family: 'Droid Serif', serif;
+		font-size: 20px;
+		color: #999999;
+		text-align: left; 
+	}
+	
+	h4{
+		font-family: 'Droid Serif', serif;
+		font-size: 18px;
+		color: #FFFFFF;
+	}
+	
+	p {
+		text-align: left;
+		font-family: 'Droid Serif', serif;
+		font-size: 14px;
+		color: #FFFFFF;
+	}
+	
+	.metatags {
+		font-family: 'Droid Serif', serif;
+		color: #333333;
+		font-size: 14px;
+	}
+
+	.metadata {
+		font-family: 'Droid Serif', serif;
+		color: #E58033;
+		font-size: 14px;
+	}
+	
+	.services {
+		font-size: 28px;
+	}
+	
+	/*centralising the responsive images*/
+
+	.main_logo {
+		width:700px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+    .navbar {
+		padding: 5px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+	
+	.exit {
+		height: 15%;
+		width: 15%;
+	}
+}
+
+.home-section {
+	min-height: 100%;
+    padding-top: 150px;
+	padding-bottom: 25px;
+    text-align: center;
+	background-image: url(../background.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.about-section {
+    padding-top: 75px;
+	padding-bottom: 25px;
+    text-align: center;
+    background: #222222;
+}
+
+.projects-section {
+    padding-top: 75px;
+	padding-bottom: 25px;
+    text-align: center;
+    background: #eee;
+}
+
+.projects-page {
+    min-height: 100%;
+	padding-bottom: 25px;
+    text-align: center;
+    background: #222;
+}
+
+.recommendations-section {
+    padding-top: 75px;
+	padding-bottom: 25px; 
+	text-align: center;
+    background: #222222;
+}
+
+.contact-section {
+    padding-top: 75px;
+	padding-bottom: 25px; 
+	text-align: center;
+    background: #eee;
+}
+
+	/*adjusting the appearance of the nav bar*/
+	
+	.navbar-default {
+		background-color: #222222;
+		font-family: 'Droid Serif', serif;
+		color: #D9D9D9;
+	}
+	
+	.navbar-default .navbar-nav > li > a {
+	  color: #999;
+	}
+	
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+	  color: #E58033;
+	  background-color: transparent;
+	}
+	
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {
+	  color: #fff;
+	  background-color: #E58033;
+	}
+	
+	.navbar-default .navbar-nav > .disabled > a,
+	.navbar-default .navbar-nav > .disabled > a:hover,
+	.navbar-default .navbar-nav > .disabled > a:focus {
+	  color: #ccc;
+	  background-color: transparent;
+	}
+	
+	/*adjusting the appearance of the nav toggle*/
+	
+	.navbar-toggle {
+	  position: relative;
+	  float: right;
+	  padding: 9px 10px;
+	  margin-top: 8px;
+	  margin-right: 15px;
+	  margin-bottom: 8px;
+	  border-radius: 5px;
+	}
+	
+	.navbar-default .navbar-toggle {
+	  border-color: #E58033;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+	  background-color: #222;
+	  border-color: #fff;
+	}
+	.navbar-toggle .icon-bar {
+	  width: 20px;
+	  height: 1px;
+	}
+	
+	.navbar-default .navbar-toggle .icon-bar {
+	  background-color: #E58033;
+	}
+
+	/*classes for projects div*/
+
+	.projects_font {
+		color: #333333;
+	}
+
+	.project_img {
+		padding: 5px;
+	}
+	
+	/*return button to home page*/
+	
+	.exit {
+		font-family: 'Droid Serif', serif;
+		color: #fff;
+		cursor: pointer;
+		float: right;
+		padding-right: 10px;
+	}
+	.exit:hover {
+		color: #E58033;
+		text-decoration: none;
+	}
+	
+	.contact_glyph {
+		width: 25px;
+	}
+	
+	.contact_us_link:hover{
+		color: #E58033;
+		text-decoration: none;
+	}
+	
+	.contact_button {
+		text-align: center;
+		margin: 10px;
+		font-family: 'Droid Serif', serif;
+		color: #333;
+	}
+	
+	.contact_button:hover,
+	.contact_button:focus,
+	.contact_button:active,
+	.contact_button.active {
+		color: #E58033;
+	}
+	
+	.btn-primary {
+		font-family: 'Droid Serif', serif;
+		margin-top: 20px;
+		background-color: transparent;
+		border-color: #fff;
+		color: #fff;
+	}
+	
+	.btn-primary:hover,
+	.btn-primary:focus,
+	.btn-primary:active,
+	.btn-primary.active,
+	.open > .dropdown-toggle.btn-primary {
+		background-color: transparent;
+		border-color: #E58033;
+		color: #E58033;
+	}
+		
+	.thumbnail {
+	  display: block;
+	  padding: 0px;
+	  margin-bottom: 20px;
+	  line-height: 1.42857143;
+	  background-color: transparent;
+	  border: 0px;
+	  -webkit-transition: all .2s ease-in-out;
+		   -o-transition: all .2s ease-in-out;
+			  transition: all .2s ease-in-out;
+	  opacity: 1;
+	}
+	
+	.thumbnail:hover,
+	.thumbnail:focus,
+	.thumbnail.active {
+	  opacity: 0.8;
+	}
